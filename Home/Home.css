@@ -1,0 +1,771 @@
+*{
+margin:0;
+padding:0;
+}
+@media screen and (min-width: 1400px) and (max-width: 2000px) {
+    body{
+    background-color:#dfdfdf;
+    }
+    .cabecalho{
+    overflow: hidden;
+    }
+    .logo{
+    width:8%;
+    float: left;
+    margin: 0px 0px 0px 100px;
+    }
+    .cabecalho h3{
+    float: left;
+    font-size:30px;
+    padding:20px 0px;
+    font-family:'Acme';
+    color:#515151;
+    }
+    .navbar-plus{
+    float:right;
+    padding:20px 100px;
+    }
+    .navbar{
+    list-style-type:none;
+    display:flex;
+    }
+    .navbar li a{
+    text-decoration: none;
+    font-family:'Acme';
+    color:#515151;
+    font-size:20px;
+    padding:25px 40px;
+    }
+    .navbar li a:hover{
+    background-color:#c0c0c0;
+    color:black;
+    }
+    .tirar{
+        display: none;
+    }
+    .central{
+        overflow: hidden;
+    
+    }
+    .central img{
+        float: right;
+        width: 45%;
+        margin: 20px 80px 0px 0px ;
+    }
+    .apresentacao{
+        margin: 100px 0px 0px 150px;
+    }
+    .apresentacao h1{
+        font-family: 'acme';
+        font-size: 80px;
+        margin: 0px;
+    }
+    .programa{
+        display: block;
+        font-size: 100px;
+        margin: 0px;
+    }
+    .apresentacao h4{
+        font-family: 'acme';
+        font-size: 28px;
+        margin: 0px;
+    }
+    .apresentacao p{
+        font-family: 'acme';
+        font-size: 28px;
+        margin: 0px;
+    }
+    .saibamais{
+        margin: 60px 0px 0px 150px;
+    }
+    .saibamais a{
+        text-decoration: none;
+        color: white;
+        background-color: #000000;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+    .saibamais a:hover{
+        background-color: #ffffff;
+        color: black;
+        border: 1px solid black;
+    }
+    .redes{
+      margin: 20px 0px 150px 140px;
+    }
+    .redes img{
+        width: 3%;
+        margin: 0px 10px;
+    }
+    .sobre{
+        background-color: #0067bc;
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+body{
+background-color:#dfdfdf;
+}
+.cabecalho{
+overflow: hidden;
+}
+.logo{
+width:8%;
+float: left;
+margin: 0px 0px 0px 100px;
+}
+.cabecalho h3{
+float: left;
+font-size:20px;
+padding:20px 0px;
+font-family:'Acme';
+color:#515151;
+}
+.navbar-plus{
+float:right;
+padding:20px 100px;
+}
+.navbar{
+list-style-type:none;
+display:flex;
+}
+.navbar li a{
+text-decoration: none;
+font-family:'Acme';
+color:#515151;
+font-size:13px;
+padding:25px 40px;
+}
+.navbar li a:hover{
+background-color:#c0c0c0;
+color:black;
+}
+.tirar{
+    display: none;
+}
+.central{
+    overflow: hidden;
+
+}
+.central img{
+    float: right;
+    width: 40%;
+    margin: 20px 60px 0px 0px ;
+}
+.apresentacao{
+    margin: 50px 0px 0px 150px;
+}
+.apresentacao h1{
+    font-family: 'acme';
+    font-size: 60px;
+    margin: 0px;
+}
+.programa{
+    display: block;
+    font-size: 80px;
+    margin: 0px;
+}
+.apresentacao h4{
+    font-family: 'acme';
+    font-size: 18px;
+    margin: 0px;
+}
+.apresentacao p{
+    font-family: 'acme';
+    font-size: 18px;
+    margin: 0px;
+}
+.saibamais{
+    margin: 60px 0px 0px 150px;
+}
+.saibamais a{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.saibamais a:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+.redes{
+  margin: 0px 0px 150px 140px;
+}
+.redes img{
+    width: 3%;
+    margin: 0px 10px;
+}
+.sobre{
+    background-color: #0067bc;
+    width: 100%;
+    height: 300px;
+}
+}
+@media screen and (min-width:1000px) and (max-width: 1200px) {
+body{
+background-color:#dfdfdf;
+}
+.cabecalho{
+overflow: hidden;
+}
+.logo{
+width:10%;
+float: left;
+margin: 0px 0px 0px 100px;
+}
+.cabecalho h3{
+float: left;
+font-size:20px;
+padding:18px 0px;
+font-family:'Acme';
+color:#515151;
+}
+.navbar-plus{
+float:right;
+padding:10px 100px;
+}
+.navbar{
+list-style-type:none;
+display:flex;
+}
+.navbar li a{
+text-decoration: none;
+font-family:'Acme';
+color:#515151;
+font-size:13px;
+padding:25px 40px;
+}
+.navbar li a:hover{
+background-color:#c0c0c0;
+color:black;
+}
+.tirar{
+    display: none;
+}
+.central{
+    overflow: hidden;
+
+}
+.central img{
+    float: right;
+    width: 36%;
+    margin: 20px 60px 0px 0px ;
+}
+.apresentacao{
+    margin: 50px 0px 0px 150px;
+}
+.apresentacao h1{
+    font-family: 'acme';
+    font-size: 60px;
+    margin: 0px;
+}
+.programa{
+    display: block;
+    font-size: 80px;
+    margin: 0px;
+}
+.apresentacao h4{
+    font-family: 'acme';
+    font-size: 18px;
+    margin: 0px;
+}
+.apresentacao p{
+    font-family: 'acme';
+    font-size: 18px;
+    margin: 0px;
+}
+.saibamais{
+    margin: 60px 0px 40px 150px;
+}
+.saibamais a{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.saibamais a:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+.redes{
+  margin: 0px 0px 150px 140px;
+}
+.redes img{
+    width: 3%;
+    margin: 0px 10px;
+}
+.sobre{
+    background-color: #0067bc;
+    width: 100%;
+    height: 300px;
+}
+}
+@media screen and (min-width:890px) and (max-width: 1000px) {
+    body{
+        background-color:#dfdfdf;
+        }
+        .cabecalho{
+        overflow: hidden;
+        }
+        .logo{
+        width:10%;
+        float: left;
+        margin: 0px 0px 0px 100px;
+        display: none;
+        }
+        .cabecalho h3{
+        float: left;
+        font-size:20px;
+        padding:15px 0px;
+        font-family:'Acme';
+        color:#515151;
+        display: none;
+        }
+        .navbar-plus{
+        float:right;
+        padding:15px 100px;
+        display: none;
+        }
+        .navbar{
+        list-style-type:none;
+        display:flex;
+        }
+        .navbar li a{
+        text-decoration: none;
+        font-family:'Acme';
+        color:#515151;
+        font-size:13px;
+        padding:25px 40px;
+        }
+        .navbar li a:hover{
+        background-color:#c0c0c0;
+        color:black;
+        }
+        .titulo{
+        font-size:25px;
+        font-family:'Acme';
+        color:#515151;
+        
+        }
+        .logo2{
+            width:15%;
+        }
+        .lateral{
+            border: 0px;
+            background-color: #51515100;
+            padding: 0.24rem 0.75rem;
+        }
+        .central{
+            overflow: hidden;
+        
+        }
+        .central img{
+            float: right;
+            width: 40%;
+            margin: 200px 50px 0px 0px;
+            
+        }
+        .apresentacao{
+            margin: 200px 0px 0px 50px;
+        }
+        .apresentacao h1{
+            font-family: 'acme';
+            font-size: 60px;
+            margin: 0px;
+        }
+        .programa{
+            display: block;
+            font-size: 80px;
+            margin: 0px;
+        }
+        .apresentacao h4{
+            font-family: 'acme';
+            font-size: 18px;
+            margin: 0px;
+        }
+        .apresentacao p{
+            font-family: 'acme';
+            font-size: 18px;
+            margin: 0px;
+        }
+        .saibamais{
+            margin: 60px 0px 40px 50px;
+        }
+        .saibamais a{
+            text-decoration: none;
+            color: white;
+            background-color: #000000;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+        .saibamais a:hover{
+            background-color: #ffffff;
+            color: black;
+            border: 1px solid black;
+        }
+        .redes{
+          margin: 0px 0px 150px 50px;
+        }
+        .redes img{
+            width: 3%;
+            margin: 0px 10px;
+        }
+        .sobre{
+            background-color: #0067bc;
+            width: 100%;
+            height: 300px;
+        }
+}
+@media screen and (min-width:530px) and (max-width: 890px) {
+            body{
+                background-color:#dfdfdf;
+                }
+                .cabecalho{
+                overflow: hidden;
+                }
+                .logo{
+                width:10%;
+                float: left;
+                margin: 0px 0px 0px 100px;
+                display: none;
+                }
+                .cabecalho h3{
+                float: left;
+                font-size:20px;
+                padding:15px 0px;
+                font-family:'Acme';
+                color:#515151;
+                display: none;
+                }
+                .navbar-plus{
+                float:right;
+                padding:15px 100px;
+                display: none;
+                }
+                .navbar{
+                list-style-type:none;
+                display:flex;
+                }
+                .navbar li a{
+                text-decoration: none;
+                font-family:'Acme';
+                color:#515151;
+                font-size:13px;
+                padding:25px 40px;
+                }
+                .navbar li a:hover{
+                background-color:#c0c0c0;
+                color:black;
+                }
+                .titulo{
+                font-size:25px;
+                font-family:'Acme';
+                color:#515151;
+                
+                }
+                .logo2{
+                    width:20%;
+                }
+                .lateral{
+                    border: 0px;
+                    background-color: #51515100;
+                    padding: 0.24rem 0.75rem;
+                }
+                    .central{
+                        overflow: hidden;
+                    
+                    }
+                    .central img{
+                        float: right;
+                        width: 30%;
+                        margin: 150px 50px 0px 0px;
+                        
+                    }
+                    .apresentacao{
+                        margin: 200px 0px 0px 50px;
+                    }
+                    .apresentacao h1{
+                        font-family: 'acme';
+                        font-size: 60px;
+                        margin: 0px;
+                    }
+                    .programa{
+                        display: block;
+                        font-size: 80px;
+                        margin: 0px;
+                    }
+                    .apresentacao h4{
+                        font-family: 'acme';
+                        font-size: 18px;
+                        margin: 0px;
+                    }
+                    .apresentacao p{
+                        font-family: 'acme';
+                        font-size: 18px;
+                        margin: 0px;
+                    }
+                    .saibamais{
+                        margin: 60px 0px 40px 50px;
+                    }
+                    .saibamais a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: #000000;
+                        padding: 10px 15px;
+                        border-radius: 10px;
+                    }
+                    .saibamais a:hover{
+                        background-color: #ffffff;
+                        color: black;
+                        border: 1px solid black;
+                    }
+                    .redes{
+                      margin: 0px 0px 150px 50px;
+                    }
+                    .redes img{
+                        width: 6%;
+                        margin: 0px 10px;
+                    }
+                    .sobre{
+                        background-color: #0067bc;
+                        width: 100%;
+                        height: 300px;
+                    }
+}
+@media screen and (min-width:430px) and (max-width: 530px) {
+    body{
+        background-color:#dfdfdf;
+        }
+        .cabecalho{
+        overflow: hidden;
+        }
+        .logo{
+        width:10%;
+        float: left;
+        margin: 0px 0px 0px 100px;
+        display: none;
+        }
+        .cabecalho h3{
+        float: left;
+        font-size:20px;
+        padding:15px 0px;
+        font-family:'Acme';
+        color:#515151;
+        display: none;
+        }
+        .navbar-plus{
+        float:right;
+        padding:15px 100px;
+        display: none;
+        }
+        .navbar{
+        list-style-type:none;
+        display:flex;
+        }
+        .navbar li a{
+        text-decoration: none;
+        font-family:'Acme';
+        color:#515151;
+        font-size:13px;
+        padding:25px 40px;
+        }
+        .navbar li a:hover{
+        background-color:#c0c0c0;
+        color:black;
+        }
+        .titulo{
+        font-size:25px;
+        font-family:'Acme';
+        color:#515151;
+        
+        }
+        .logo2{
+            width:20%;
+        }
+        .lateral{
+            border: 0px;
+            background-color: #51515100;
+            padding: 0.24rem 0.75rem;
+        }
+            .central{
+                overflow: hidden;
+            
+            }
+            .central img{
+                float: right;
+                width: 35%;
+                margin: 130px 50px 0px 0px;
+                
+            }
+            .apresentacao{
+                margin: 200px 0px 0px 50px;
+            }
+            .apresentacao h1{
+                font-family: 'acme';
+                font-size: 150%;
+                margin: 0px;
+            }
+            .programa{
+                display: block;
+                font-size: 200%;
+                margin: 0px;
+            }
+            .apresentacao h4{
+                font-family: 'acme';
+                font-size: 90%;
+                margin: 0px;
+            }
+            .apresentacao p{
+                font-family: 'acme';
+                font-size: 18px;
+                margin: 0px;
+            }
+            .saibamais{
+                margin: 50px 0px 40px 50px;
+            }
+            .saibamais a{
+                text-decoration: none;
+                color: white;
+                background-color: #000000;
+                padding: 10px 15px;
+                border-radius: 10px;
+            }
+            .saibamais a:hover{
+                background-color: #ffffff;
+                color: black;
+                border: 1px solid black;
+            }
+            .redes{
+              margin: 50px 0px 150px 50px;
+            }
+            .redes img{
+                width: 8%;
+                margin: 0px 10px;
+            }
+            .sobre{
+                background-color: #0067bc;
+                width: 100%;
+                height: 300px;
+            }
+}
+@media screen and (min-width:0px) and (max-width: 430px) {
+    body{
+        background-color:#dfdfdf;
+        }
+        .cabecalho{
+        overflow: hidden;
+        }
+        .logo{
+        width:10%;
+        float: left;
+        margin: 0px 0px 0px 100px;
+        display: none;
+        }
+        .cabecalho h3{
+        float: left;
+        font-size:20px;
+        padding:15px 0px;
+        font-family:'Acme';
+        color:#515151;
+        display: none;
+        }
+        .navbar-plus{
+        float:right;
+        padding:15px 100px;
+        display: none;
+        }
+        .navbar{
+        list-style-type:none;
+        display:flex;
+        }
+        .navbar li a{
+        text-decoration: none;
+        font-family:'Acme';
+        color:#515151;
+        font-size:13px;
+        padding:25px 40px;
+        }
+        .navbar li a:hover{
+        background-color:#c0c0c0;
+        color:black;
+        }
+        .titulo{
+        font-size:25px;
+        font-family:'Acme';
+        color:#515151;
+        
+        }
+        .logo2{
+            width:20%;
+        }
+        .lateral{
+            border: 0px;
+            background-color: #51515100;
+            padding: 0.24rem 0.75rem;
+        }
+            .central{
+                overflow: hidden;
+            
+            }
+            .central img{
+                float: right;
+                width: 45%;
+                margin: 130px 50px 0px 0px;
+                
+            }
+            .apresentacao{
+                margin: 200px 0px 0px 50px;
+            }
+            .apresentacao h1{
+                font-family: 'acme';
+                font-size: 150%;
+                margin: 0px;
+            }
+            .programa{
+                display: block;
+                font-size: 200%;
+                margin: 0px;
+            }
+            .apresentacao h4{
+                font-family: 'acme';
+                font-size: 90%;
+                margin: 0px;
+            }
+            .apresentacao p{
+                font-family: 'acme';
+                font-size: 18px;
+                margin: 0px;
+            }
+            .saibamais{
+                margin: 50px 0px 40px 50px;
+            }
+            .saibamais a{
+                text-decoration: none;
+                color: white;
+                background-color: #000000;
+                padding: 10px 15px;
+                border-radius: 10px;
+            }
+            .saibamais a:hover{
+                background-color: #ffffff;
+                color: black;
+                border: 1px solid black;
+            }
+            .redes{
+              margin: 50px 0px 150px 50px;
+            }
+            .redes img{
+                width: 8%;
+                margin: 0px 10px;
+            }
+            .sobre{
+                background-color: #0067bc;
+                width: 100%;
+                height: 300px;
+            }
+}
